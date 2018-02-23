@@ -11,8 +11,7 @@
  limitations under the License.-->
 
 <!-- GridView that displays AndroidMe images -->
-<GridView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/images_grid_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -23,5 +22,4 @@
     android:numColumns="3"
     android:padding="16dp"
     android:stretchMode="columnWidth"
-    android:verticalSpacing="8dp">
-</GridView>
+    android:verticalSpacing="8dp"></GridView>
